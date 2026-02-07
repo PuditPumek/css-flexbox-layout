@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+
+	"name": "app",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "PostgreSQL connection pool exercise",
+	"main": "app.mjs",
+	"scripts": {
+		"start": "nodemon app.mjs",
+		"dev": "node app.mjs"
+	}
+}
